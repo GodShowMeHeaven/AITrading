@@ -1,0 +1,69 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--disable=C0103"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            88
+        ],
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/*.pyd": true,
+        ".Python": true,
+        "pip-log.txt": true,
+        "pip-delete-this-directory.txt": true,
+        ".tox": true,
+        ".coverage": true,
+        ".coverage.*": true,
+        ".cache": true,
+        "nosetests.xml": true,
+        "coverage.xml": true,
+        "*.cover": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true
+    },
+    "search.exclude": {
+        "**/venv": true,
+        "**/.git": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "files.associations": {
+        "*.yaml": "yaml",
+        "*.yml": "yaml",
+        "requirements.txt": "pip-requirements"
+    },
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true,
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    }
+}

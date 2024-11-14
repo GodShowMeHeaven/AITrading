@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: trading_bot
+Version: 0.1.0
+Summary: Advanced trading bot for Bybit
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.8
+Requires-Dist: ccxt>=4.0.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn>=0.22.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: aiohttp>=3.8.5
+Requires-Dist: ta>=0.10.2
+Requires-Dist: scikit-learn>=1.3.0
